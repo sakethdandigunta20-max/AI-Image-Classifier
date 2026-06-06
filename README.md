@@ -1,4 +1,4 @@
-# 📚 AI Image Classifier
+# 📚 Academic Abstract Classifier
 
 An end-to-end, high-performance web application that classifies academic paper abstracts into specific sub-disciplines of Mathematics and Computer Science. The system features a state-of-the-art fine-tuned **DeBERTa-v3-small** model adapted using Parameter-Efficient Fine-Tuning (**PEFT/LoRA**), served via a **FastAPI** backend, and presented through a modern, responsive **React (Vite)** frontend.
 
