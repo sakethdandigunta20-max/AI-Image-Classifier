@@ -1,0 +1,42 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# HuggingFace & Pip Cache
+.cache/
+pip-cache/
+Academic Abstract Classifier/.cache/
+Academic Abstract Classifier/pip-cache/
+
+# Training results & checkpoints
+results/
+Academic Abstract Classifier/results/
+
+# Datasets (large files)
+tokenized_deberta_ds/
+Academic Abstract Classifier/tokenized_deberta_ds/
+*.arrow
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+Academic Abstract Classifier/frontend/node_modules/
+Academic Abstract Classifier/frontend/dist/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
